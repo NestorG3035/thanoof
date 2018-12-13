@@ -1,5 +1,6 @@
 .title{
     font-family: 'Cinzel', serif;
+    font-size:60px;
 }
 p{
     font-family: 'Racing Sans One', cursive;    
@@ -19,4 +20,11 @@ h2{
 }
 #Nobody{
     padding-left:450px ;
+
+}
+
+.mrwho{
+    font-family: Cinzel, serif;
+    color:#C71313;
+
 }
