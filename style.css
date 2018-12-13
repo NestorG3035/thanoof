@@ -1,7 +1,15 @@
 .title{
     font-family: 'Cinzel', serif;
+    font-size:60px;
 }
 p{
     font-family: 'Racing Sans One', cursive;
 
+}
+h2{
+    font-family:'Cinzel', serif;
+}
+.mrwho{
+    font-family: Cinzel, serif;
+    color:#C71313;
 }
