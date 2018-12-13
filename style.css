@@ -3,13 +3,28 @@
     font-size:60px;
 }
 p{
-    font-family: 'Racing Sans One', cursive;
-
+    font-family: 'Racing Sans One', cursive;    
+    padding-bottom: 15px;
 }
 h2{
-    font-family:'Cinzel', serif;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 30px;
+    padding-top:10px;
+    
 }
+#Saving{
+    padding-left: 600px;
+}
+#Goal{
+    padding-left: 500px;
+}
+#Nobody{
+    padding-left:450px ;
+
+}
+
 .mrwho{
     font-family: Cinzel, serif;
     color:#C71313;
+
 }
