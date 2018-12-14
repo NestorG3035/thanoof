@@ -1,19 +1,31 @@
 .title{
     font-family: 'Cinzel', serif;
     font-size:60px;
+    color:  red;
+   
 }
-p{
+.section1{
+    text-align: center;
+    background-color: lightgrey;
+    margin:auto;
+        }
+.section2{  
+    text-align:center;
+    margin:auto
+   
+}
+
+p, h2{
     font-family: 'Racing Sans One', cursive;    
     padding-bottom: 15px;
 }
 h2{
-    font-family: 'Racing Sans One', cursive;
     font-size: 30px;
     padding-top:10px;
     
 }
 #Saving{
-    padding-left: 600px;
+    /*padding-left: 600px;*/
 }
 #Goal{
     padding-left: 500px;
