@@ -2,17 +2,35 @@
     font-family: 'Cinzel', serif;
     font-size:60px;
     color:  red;
+    margin:auto;
    
 }
 .section1{
     text-align: center;
     background-color: lightgrey;
     margin:auto;
+    border-style: dotted;
+    margin-bottom:5px;
+    
         }
 .section2{  
     text-align:center;
-    margin:auto
+  padding: 100px 100px;
+    margin:400px;
+    position:relative;
+    left:325px;
+    bottom:350px;
+    
+    border-style: solid;
    
+}
+.section3{
+     text-align:center;
+  padding: 100px 100px;
+    margin:400px;
+    position:relative;
+    left:325px;
+    bottom:350px;
 }
 
 p, h2{
@@ -23,18 +41,12 @@ h2{
     font-size: 30px;
     padding-top:10px;
     
-}
-#Saving{
-    /*padding-left: 600px;*/
-}
-#Goal{
-    padding-left: 500px;
     
 }
-#Nobody{
-    padding-left:450px ;
-
+#blue{
+    color:#16B8FF;
 }
+
 
 .mrwho{
     font-family: Cinzel, serif;
