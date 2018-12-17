@@ -9,7 +9,7 @@
     text-align: center;
     background-color: lightgrey;
     margin:auto;
-    border-style: dotted;
+    border-style: outset;
     margin-bottom:5px;
     
         }
@@ -21,18 +21,27 @@
     left:325px;
     bottom:350px;
     
-    border-style: solid;
+    border-style: inset;
    
 }
 .section3{
-     text-align:center;
-  padding: 100px 100px;
+    text-align:center;
+    padding: 100px 100px;
+    margin:400px;
+    position:relative;
+    right:325px;
+    bottom:650px;
+    border-style: inset;
+}
+.section4{
+    text-align:center;
+    padding: 100px 100px;
     margin:400px;
     position:relative;
     left:325px;
-    bottom:350px;
+    bottom:950px;
+    border-style: inset; 
 }
-
 p, h2{
     font-family: 'Racing Sans One', cursive;    
     padding-bottom: 15px;
