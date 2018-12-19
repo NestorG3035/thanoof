@@ -1,69 +1,100 @@
-.title{
+.title {
     font-family: 'Cinzel', serif;
-    font-size:60px;
-    color:  red;
-    margin:auto;
-   
+    font-size: 60px;
+    color: red;
+    margin: auto;
+
 }
-.section1{
+
+.section1 {
     text-align: center;
     background-color: lightgrey;
-    margin:auto;
+    margin: auto;
     border-style: outset;
-    margin-bottom:5px;
-    
-        }
-.section2{  
-    text-align:center;
-  padding: 100px 100px;
-    margin:400px;
-    position:relative;
-    left:325px;
-    bottom:-50px;
-    
-    border-style: inset;
-   
+    margin-bottom: 5px;
+
 }
-.section3{
-    text-align:center;
+
+.section2 {
+    background-color: rgba(255,255,255, .4);
+    text-align: center;
     padding: 100px 100px;
-    margin:400px;
-    position:relative;
-    right:325px;
-    bottom:250px;
+    margin: 400px;
+    position: relative;
+    left: 325px;
+    bottom: 300px;
+
     border-style: inset;
+    border-color:  200px;
+  
 }
-.section4{
-    text-align:center;
+
+.section3 {
+        background-color: rgba(255,255,255, .4);
+    text-align: center;
     padding: 100px 100px;
-    margin:400px;
-    position:relative;
-    left:325px;
-    bottom:550px;
-    border-style: inset; 
+    margin: 400px;
+    position: relative;
+    right: 325px;
+    bottom: 600px;
+    border-style: outset;
+    border-color:  200px;
 }
-p, h2{
-    font-family: 'Racing Sans One', cursive;    
+
+.section4 {
+        background-color: rgba(255,255,255, .4);
+    text-align: center;
+    padding: 100px 100px;
+    margin: 400px;
+    position: relative;
+    left: 325px;
+    bottom: 900px;
+    border-style: inset;
+    border-color:200px;
+
+
+}
+
+p,
+h2 {
+    font-family: 'Racing Sans One', cursive;
     padding-bottom: 15px;
 }
-h2{
+
+h2 {
     font-size: 30px;
-    padding-top:10px;
-    
-    
+    padding-top: 10px;
+
+
 }
-#blue{
-    color:#16B8FF;
+
+#blue {
+    color: #16B8FF;
 }
-#background{
-    position:relative;
-    bottom:400px;
-    background-image:linear-gradient(180deg,#500567,#8B12B0)
+
+#background {
+
+    background-image: linear-gradient(180deg, #500567, #8B12B0);
+    position: absolute;
+    height:2600px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.9;
 }
 
 
-.mrwho{
+.mrwho {
     font-family: Cinzel, serif;
-    color:#C71313;
-
+    color: #C71313;
 }
+
+.bg-image {
+    background: url(Earth.jpeg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
