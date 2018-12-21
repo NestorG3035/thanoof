@@ -5,16 +5,40 @@
     margin: auto;
 
 }
-
+.earth-image{
+    background-image:url("Earth.jpeg");
+    position:absolute;
+    height:200px;
+    width:100%;
+    padding-bottom:1050px;
+    margin-top:-100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index:-2;
+    filter: blur(10px);
+    -webkit-filter:blur(10px);
+    
+}
 .section1 {
+
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgba(211,211,211);
+    position:absolute;
+    padding-bottom: 10px;
+   
     margin: auto;
+    margin-right:-10px;
     border-style: outset;
-    margin-bottom: 5px;
+    margin-top: -8px;
+    margin-bottom: -1px;
+    position:relative;
+    
 
 }
 
+.tagline{
+    color:white;
+}
 .section2 {
     background-color: rgba(255,255,255, .4);
     text-align: center;
