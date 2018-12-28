@@ -16,7 +16,7 @@
     background-size:cover;
     z-index:-2;
     filter: blur(10px);
-    -webkit-filter:blur(10px);
+    -webkit-filter:blur(4px);
     
 }
 .section1 {
@@ -37,10 +37,10 @@
 }
 
 .tagline{
-    color:white;
+    
 }
 .section2 {
-    background-color: rgba(255,255,255, .4);
+    background-color: rgba(255,255,255, .2);
     text-align: center;
     padding: 100px 100px;
     margin: 400px;
@@ -54,9 +54,10 @@
 }
 
 .section3 {
-        background-color: rgba(255,255,255, .4);
+        background-color: rgba(255,255,255, .2);
+       
     text-align: center;
-    padding: 100px 100px;
+    padding: 100px;
     margin: 400px;
     position: relative;
     right: 325px;
@@ -66,9 +67,9 @@
 }
 
 .section4 {
-        background-color: rgba(255,255,255, .4);
+        background-color: rgba(255,255,255, .2);
     text-align: center;
-    padding: 100px 100px;
+    padding: 100px ;
     margin: 400px;
     position: relative;
     left: 325px;
@@ -111,6 +112,25 @@ h2 {
     font-family: Cinzel, serif;
     color: #C71313;
 }
+.infinityooflet{
+    padding:20px;
+    border-style:outset;
+background-color: rgba(255,255,255, .2);
+position:absolute;
+left: 800px;
+top: 840px;
 
+}
+.thanoid{
+     padding:20px;
+     height:425px;
+     width:500px;
+    border-style:outset;
+background-color: rgba(255,255,255, .2);
+position:absolute;
+left:80px;
+top:270px;
+    
+}
 
 
