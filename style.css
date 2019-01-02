@@ -2,7 +2,8 @@
     font-family: 'Cinzel', serif;
     font-size: 60px;
     color: red;
-    margin: auto;
+   
+    text-align: center;
 
 }
 .earth-image{
@@ -19,19 +20,20 @@
     -webkit-filter:blur(4px);
     
 }
-.section1 {
+.section1 {/*Grey area*/
 
     text-align: center;
     background-color: rgba(211,211,211);
     position:absolute;
-    padding-bottom: 10px;
+
    
-    margin: auto;
-    margin-right:-10px;
+   padding:1px 300px 5px 300px;
+  
+    
     border-style: outset;
-    margin-top: -8px;
+    margin-top: -60px;
     margin-bottom: -1px;
-    position:relative;
+    
     
 
 }
@@ -39,41 +41,52 @@
 .tagline{
     
 }
-.section2 {
+.section2 {/*To save the Universe*/
     background-color: rgba(255,255,255, .2);
     text-align: center;
-    padding: 100px 100px;
-    margin: 400px;
-    position: relative;
-    left: 325px;
-    bottom: 300px;
+    padding-top:90px;
+    padding-left:50px;
+    padding-right:50px;
+       
+
+    position: absolute;
+    left: 725px;
+    top:263px;
+    width:500px;
+    height:380px;
+   
+    
 
     border-style: inset;
     border-color:  200px;
   
 }
 
-.section3 {
+.section3 {/*His goal*/
         background-color: rgba(255,255,255, .2);
        
     text-align: center;
     padding: 100px;
     margin: 400px;
-    position: relative;
-    right: 325px;
-    bottom: 600px;
+    position: absolute;
+    left:-330px;
+    bottom: 890px;
+    width:340px;
+    height:275px;
     border-style: outset;
     border-color:  200px;
 }
 
-.section4 {
+.section4 {/*But there is only one person*/
         background-color: rgba(255,255,255, .2);
     text-align: center;
-    padding: 100px ;
+    padding:100px ;
     margin: 400px;
-    position: relative;
+    position: absolute;
+     width:340px;
+    height:300px;
     left: 325px;
-    bottom: 900px;
+    bottom: 300px;
     border-style: inset;
     border-color:200px;
 
@@ -141,7 +154,12 @@ top:270px;
     background-color: rgba(255,255,255, .2);
 position:absolute;
 left:50px;
-bottom:870px;
+bottom:770px;
     
+}
+video{
+    position:absolute;
+    left:350px;
+    bottom:00px;
 }
 
