@@ -77,7 +77,9 @@
     border-color:  200px;
 }
 
+
 .section4 {/*But there is only one person*/
+
         background-color: rgba(255,255,255, .2);
     text-align: center;
     padding:100px ;
@@ -130,8 +132,8 @@ h2 {
     border-style:outset;
 background-color: rgba(255,255,255, .2);
 position:absolute;
-left: 800px;
-top: 840px;
+left: 1400px;
+top: 740px;
 
 }
 .thanoid{
@@ -160,6 +162,6 @@ bottom:770px;
 video{
     position:absolute;
     left:350px;
-    bottom:00px;
+    bottom:100px;
 }
 
